@@ -1,0 +1,9 @@
+<!-- zhihu.wxml -->
+<import src="../template/template.wxml" />
+<view class="container">
+  <scroll-view class="zhihu-list" scroll-y bindscrolltolower="getList" style="height: {{windowHeight}}px;">
+    <view wx:for="{{list}}">
+      <template is="articlelist" data="{{...item}}" />
+    </view>
+  </scroll-view>
+</view>

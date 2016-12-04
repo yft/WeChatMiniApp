@@ -1,0 +1,13 @@
+<!-- temp.wxml -->
+<template name="articlelist">
+    <navigator url="../detail/detail?id={{id}}&img={{images[0] || thumbs[0].small.url}}">
+        <view class="articlelist-item">
+            <image class="articlelist-img" src="{{images[0] || thumbs[0].small.url}}"></image>
+            <view class="articlelist-item-r">
+                <text class="articlelist-title">{{title}}</text>
+                <text class="articlelist-detail" wx:if="{{summary.length > 0}}">{{summary}}</text>
+                <text class="articlelist-detail" wx:else="{{abstract.length > 0}}">{{abstract}}</text>
+            </view>
+        </view>
+    </navigator>
+</template>

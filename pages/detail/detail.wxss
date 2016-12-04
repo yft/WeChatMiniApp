@@ -1,0 +1,31 @@
+/* detail.wxss */
+@import "../wxParse/wxParse.wxss";
+.detail-plot {
+    position: relative;
+}
+.detail-plot-author {
+    position: absolute;
+    right: 20rpx;
+    bottom: 20rpx;
+    font-size: 30rpx;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+}
+.detail-title, .detail-info {
+    width: 96%;
+    text-align: left;
+}
+.detail-title {
+    font-size: 42rpx;
+    line-height: 80rpx;
+    font-weight: bold;
+}
+.detail-info {
+    font-size: 30rpx;
+}
+.detail-info text {
+    padding-right: 16rpx;
+}
+.detail-content {
+    width: 96%;
+}

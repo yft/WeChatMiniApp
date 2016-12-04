@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/zhihu/zhihu",
+    "pages/guoke/guoke",
+    "pages/douban/douban",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#06f",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#06f"
+  },
+  "tabBar": {
+    "color": "#ffffff",
+    "backgroundColor": "#06f",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/zhihu/zhihu",
+      "text": "知乎日报",
+      "iconPath": "images/zhi.png",
+      "selectedIconPath": "images/zhi.png"
+    }, {
+      "pagePath": "pages/guoke/guoke",
+      "text": "果壳精选",
+      "iconPath": "images/guo.png",
+      "selectedIconPath": "images/guo.png"
+    }, {
+      "pagePath": "pages/douban/douban",
+      "text": "豆瓣一刻",
+      "iconPath": "images/dou.png",
+      "selectedIconPath": "images/dou.png"
+    }]
+  }
+}

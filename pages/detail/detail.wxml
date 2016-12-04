@@ -1,0 +1,15 @@
+<!-- detail.wxml -->
+<import src="../wxParse/wxParse.wxml" />
+<view class="container">
+    <view class="detail-plot">
+        <image src="{{plot}}"></image>
+        <text class="detail-plot-author">{{image_source}}</text>
+    </view>
+    <view class="detail-title">{{title}}</view>
+    <!--<view class="detail-info">
+        <text class="detail-time" wx:if="{{created_time}}">{{created_time}}</text>
+    </view>-->
+    <view class="detail-content">
+        <template is="wxParse" data="{{wxParseData}}" />
+    </view>
+</view>

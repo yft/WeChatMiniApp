@@ -1,0 +1,50 @@
+/* template.wxss */
+.articlelist-list {
+  height: 100%;
+}
+.articlelist-item {
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  justify-content: space-around;
+  padding: 12rpx 0;
+}
+.articlelist-img {
+  width: 200rpx;
+  height: 200rpx;
+  flex-shrink: 0; 
+}
+.articlelist-item-r {
+  width: 460rpx;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.articlelist-title {
+  width: 100%;
+  height: 112rpx;
+  line-height: 56rpx;
+  font-size: 36rpx;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: box;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.articlelist-detail {
+  width: 100%;
+  height: 76rpx;
+  line-height: 38rpx;
+  font-size: 30rpx;
+  color: gray;
+  
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: box;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
